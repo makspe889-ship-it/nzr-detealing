@@ -1,0 +1,11 @@
+/* Опционально: самостоятельный хостинг шрифтов (вместо Google Fonts).
+   Положите файлы .woff2 в папку fonts/ (см. README.md, раздел «Шрифты»),
+   затем в index.html удалите три тега Google Fonts и подключите этот файл
+   перед style.css. Названия файлов — любые, главное чтобы совпадали ниже. */
+@font-face { font-family: "Unbounded"; font-weight: 300; font-style: normal; font-display: swap; src: url("../fonts/Unbounded-300.woff2") format("woff2"); }
+@font-face { font-family: "Unbounded"; font-weight: 400; font-style: normal; font-display: swap; src: url("../fonts/Unbounded-400.woff2") format("woff2"); }
+@font-face { font-family: "Unbounded"; font-weight: 600; font-style: normal; font-display: swap; src: url("../fonts/Unbounded-600.woff2") format("woff2"); }
+@font-face { font-family: "Onest"; font-weight: 300; font-style: normal; font-display: swap; src: url("../fonts/Onest-300.woff2") format("woff2"); }
+@font-face { font-family: "Onest"; font-weight: 400; font-style: normal; font-display: swap; src: url("../fonts/Onest-400.woff2") format("woff2"); }
+@font-face { font-family: "Onest"; font-weight: 500; font-style: normal; font-display: swap; src: url("../fonts/Onest-500.woff2") format("woff2"); }
+@font-face { font-family: "Onest"; font-weight: 600; font-style: normal; font-display: swap; src: url("../fonts/Onest-600.woff2") format("woff2"); }
